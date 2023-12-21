@@ -1,20 +1,21 @@
 #¿Cómo se llama el polígono que tiene n lados? Considera que n va de 5 a 10.
 #Algoritmo Tipo de Poligono
 
-nlados = input("Ingrese los lados del poligono")
-if nlados == 5:
-    poligono = "pentagono"
-#elif nlados == 6:
-#    poligono = "hexagono"
-#elif nlados == 7:
-#    poligono = "heptagono"
-#elif nlados == 8:
-#    poligono = "octagono"
-#elif nlados == 9:
-#    poligono = "nonagono"
-#elif nlados == 10:
-#    poligono = "decagono"
-#else:
-#    print("Favor de ingresar solo del numero 5 al 10")
+#Algoritmo Billetes
 
-print("El poligono de", nlados, "lados es un", poligono)
+nlados = input("Ingrese los lados del poligono")
+if int(nlados) == 5:
+    figura = "Pentagono"
+elif int(nlados) == 6: 
+    figura = "Hexagono"
+elif int(nlados) == 7:
+    figura = "Heptagono"
+elif int(nlados) == 8:
+    figura = "Octagono"
+elif int(nlados) == 9:
+    figura = "Nonagono"
+elif int(nlados) == 10:
+    figura = "Decagono"
+else:
+   figura = "Solo numeros del 5 al 10"
+print(figura)
