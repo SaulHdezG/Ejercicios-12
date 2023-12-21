@@ -1,7 +1,7 @@
 #¿Cómo se llama el polígono que tiene n lados? Considera que n va de 5 a 10.
 #Algoritmo Tipo de Poligono
 
-#Algoritmo Billetes
+#Algoritmo Poligono
 
 nlados = input("Ingrese los lados del poligono")
 if int(nlados) == 5:
